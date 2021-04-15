@@ -1,0 +1,41 @@
+h1 {
+    color: #00b7ff
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+header {
+    background: url('http://img0.safereactor.cc/pics/post/full/gachimuchi-Billy-Herrington-смешные-картинки-4705422.jpeg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+}
+body,
+h1 {
+    margin: 0;
+}
+
+.article {
+    width: 40%;
+    text-align: center;
+    color: #bebebe;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+}
+
